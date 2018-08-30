@@ -515,7 +515,7 @@ public class Player extends Entity {
 			if (tooFar) {
 				toMove=Vec.zero;
 				if (velocity.mag()>12 && hitLagLeft>0) {
-					velocity=new Vec(velocity.x(), -0.7*velocity.y());
+					velocity=new Vec(velocity.x(), -0.3*velocity.y());
 				}
 				else {
 					velocity=new Vec(velocity.x(), 0);

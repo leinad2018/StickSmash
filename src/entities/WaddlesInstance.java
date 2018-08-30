@@ -132,7 +132,7 @@ public class WaddlesInstance extends PlayerInstance {
 		for (int i=0; i<50; i++)
 			recoveryAttack.addVelocityCue(i, new Vec(Attack.velocityValueToIgnore, 5));
 		recoveryAttack.addVelocityCue(60, new Vec(Attack.velocityValueToIgnore, 15));
-		for (int i=20; i<80; i++)
+		for (int i=20; i<90; i++)
 			recoveryAttack.addGrabCue(i);
 		
 		Rect recoveryDamageBox=new Rect(new Vec(-80, 80), new Vec(80, 250));
